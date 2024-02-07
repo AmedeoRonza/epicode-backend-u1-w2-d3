@@ -1,0 +1,12 @@
+--select count (*) from Orders
+--select count(*) from Employees
+--select count(*) from Employees where City = 'London'
+--select avg(Freight) from Orders
+--select avg(Freight) from Orders where CustomerID = 'BOTTM'
+--select CustomerID, sum(freight) from Orders group by CustomerID
+--select count(*), City from Employees group by City
+--select OrderId, sum(UnitPrice * Quantity) As TotaleRiga from [Order Details] group by OrderID
+--select OrderId, sum(UnitPrice * Quantity) As TotaleRiga from [Order Details] where OrderID = 10248 group by OrderID
+--select count(*), CategoryID from Products group by CategoryID
+--select count(*), ShipCountry from Orders group by ShipCountry
+--select avg(Freight), ShipCountry from Orders group by ShipCountry
